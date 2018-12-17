@@ -8,7 +8,7 @@ public class DailySchedule {
     private ArrayList<Appointment> apptList;
 
     public DailySchedule(Appointment... appointments) {
-        apptList = new ArrayList<Appointment>(Arrays.asList(appointments));
+        apptList = new ArrayList<>(Arrays.asList(appointments));
     }
 
     public ArrayList<Appointment> getApptList() {
